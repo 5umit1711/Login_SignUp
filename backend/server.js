@@ -5,6 +5,7 @@ import pkg from "jsonwebtoken";
 import mongoose, { mongo } from "mongoose";
 import twilio from "twilio"
 
+// The project was not that big therefore i wrote the whole code in one file only...
 const app = express();
 const PORT = 3000;
 const {jwt} = pkg
